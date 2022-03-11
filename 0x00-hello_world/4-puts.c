@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - prints "with proper grammar, but the outcome is a piece of
- * art,"
+ * main - prints "Programming is like buulding a multilingual puzzle
  *
  * Return: Always 0 (Success)
  */
