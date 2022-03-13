@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-/*
- * main - prints "Programming is like buulding a multilingual puzzle
- * Description: The programme prints the above text followed by a new line
+/**
+ * main - Entry point
+ *
+ * Description: prints "Programming is like building a multilingual puzzle"
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
