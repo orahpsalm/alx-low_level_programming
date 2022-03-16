@@ -11,10 +11,10 @@ int main(void)
 
 	while (*word != '\0')
 	{
-		putchar(*word);
+		_putchar(*word);
 		word++;
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
