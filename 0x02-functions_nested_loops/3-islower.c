@@ -1,15 +1,76 @@
 #include "main.h"
 
 /**
- * main - check the code.
- * Description: 'c' is the name of the int variable
- * _islower - name of function
- * Return: Always 0.
+ * _islower - checks for lowercase
+ * @c: c is an ascii character
+ *
+ * Return: 1 if lowercase
  */
+
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
+	{
 		return (1);
+	}
 	else
+	{
 		return (0);
+	}
 }
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
