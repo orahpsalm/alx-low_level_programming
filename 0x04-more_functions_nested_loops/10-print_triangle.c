@@ -3,7 +3,6 @@
 /**
  * print_triangle - prints a triangle
  * @size: length of sides minus hypotenuse
- *
  * Return: void
  */
 
