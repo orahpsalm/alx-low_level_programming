@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - print n elements of array of integers
@@ -6,7 +7,7 @@
  * @n: number of items to print
  * Return: void
  */
-void print_array(int *a, int n)
+void print_array(int *a, int ni
 {
 	int i, count;
 
