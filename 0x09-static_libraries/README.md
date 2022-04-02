@@ -1,1 +1,3 @@
-Readme for directory 0x09-static_libraries in the ALX C programming course
+Here is my directory containing all assignment submissions on ALX course 0x06-pointers_arrays_strings.
+
+Enjoy!ï¿½ï¿
