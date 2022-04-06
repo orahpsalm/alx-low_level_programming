@@ -8,7 +8,7 @@
  * Return: pointer to new string, NULL if it fails
  */
 char *str_concat(char *s1, char *s2)
-
+{
 	int length1, length2, length3, i;
 	char *arr;
 
