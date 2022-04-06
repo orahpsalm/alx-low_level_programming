@@ -8,7 +8,7 @@
  * Return: pointer to new string, NULL if it fails
  */
 char *str_concat(char *s1, char *s2)
-{
+
 	int length1, length2, length3, i;
 	char *arr;
 
@@ -19,10 +19,10 @@ char *str_concat(char *s1, char *s2)
 	length1 = 0;
 
 	while (*(s1 + length1) != '\0')
-		length1++
+		length1++;
 	length2 = 0;
 
-	while (*(s2 + length2) != '\0'
+	while (*(s2 + length2) != '\0')
 		length2++;
 	length3 = length1 + length2;
 
