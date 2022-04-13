@@ -1,3 +1,2 @@
-Readme for this current folder.
-git add .
-git 
+Readme for this current foldre on function pointers
+
