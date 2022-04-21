@@ -1,12 +1,12 @@
 #include "lists.h"
 
 /**
- * print_list - prints all the elements of a list_t list
+ * list_len - returns the number of elements in a linked list_t list
  * @h: head of linked list
  * Return: number of elements
  */
 
-size_t print_list(const list_t *h)
+size_t list_len(const list_t *h)
 {
 	size_t size;
 
@@ -14,11 +14,8 @@ size_t print_list(const list_t *h)
 	while (h != NULL)
 	{
 		size++;
-		if (h->str == NULL)
-			printf("[%d] (nil)\n", 0);
-		else
-			printf("[%d] %s\n", h->len, h->str);
 		h = h->next;
 	}
+
 	return (size);
 }
