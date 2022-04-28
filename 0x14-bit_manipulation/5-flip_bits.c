@@ -1,59 +1,23 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * _strlen - returns length of string (modified)
- * @s: string (const)
- * Return: length of string
+ * flip_bits - returns the number of bits to flip number to another
+ * @n: first integer
+ * @m: second integer
+ * Return: number of bits to change (integer)
  */
 
-int _strlen(const char *s)
-{
-	int len = 0;
-
-	while (s[len] != '\0')
-	{
-		len++;
-	}
-	return (len);
-}
-
-/**
- * power - exponents
- * @base: base
- * @exp: exponent
- * Return: result (int)
- */
-
-int power(int base, int exp)
-{
-	int i, num;
-
-	num = 1;
-	for (i = 0; i < exp; ++i)
-		num *= base;
-	return (num);
-}
-
-/**
- * binary_to_uint - converts a binary number to an unsigned int
- * @b: binary
- * Return: unsigned int
- */
-
-unsigned int binary_to_uint(const char *b)
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned int sum;
-	int length, i;
+	unsigned long int xor;
 
 	sum = 0;
-	if (b == NULL)
-		return (sum);
-	length = _strlen(b);
-	for (i = length - 1; i >= 0; i--)
+	xor = n ^ m;
+	while (xor)
 	{
-		if (b[i] != '0' && b[i] != '1')
-			return (0);
-		sum += (b[i] - '0') * power(2, length - i - 1);
+		sum += xor & 1;
+		xor = xor >> 1;
 	}
 	return (sum);
 }
