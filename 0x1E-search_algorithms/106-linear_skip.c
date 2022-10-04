@@ -3,7 +3,9 @@
 
 
 /**
- * linear_skip - a function that searches for a value in a sorted skip list of integers.
+ * linear_skip - a function that searches for a value in a
+ * sorted skip list of integers.
+ *
  * @list: a pointer to the head of the skip list to search in
  * @value: the value to search for
  * Return: NULL or a pointer to the node of the value
