@@ -37,7 +37,7 @@ int search_recursion(int *array, int low, int high, size_t size, int value)
 /**
  * interpolation_search - a function that searches for a value in a
  * sorted array of integers using the Interpolation search algorithm
- * 
+ *
  * @array: a pointer to the first element of the array to search in
  * @size: the number of elements in array
  * @value: the value to search for
