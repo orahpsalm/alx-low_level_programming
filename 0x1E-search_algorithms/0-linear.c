@@ -8,7 +8,7 @@
  * @array: a pointer to the first element of the array to search in
  *
  * @size: the number of elements in array
- * 
+ *
  * @value: the value to search for
  *
  * Return: -1 in case of failure or the first index of the value
